@@ -10,7 +10,7 @@ import axios from "axios";
 import ListingCard from "../components/listings/ListingCard";
 
 interface PropertiesClientProps {
-    listings: SafeListing[];
+    listings: SafeListing[],
     currentUser?: SafeUser | null;
 }
 
